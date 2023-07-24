@@ -1,22 +1,63 @@
-h1 {
-  font-family: "Chewy", cursive;
+:root {
+  --main-typeface: "Josefin Sans", sans-serif;
+  --titles-typeface: "Chewy", cursive;
+  --main-colour: #9bcaf2;
+  --secondary-colour: #4e517f;
 }
 
+body {
+  color: white;
+  font-family: var(--main-typeface);
+  font-size: 24px;
+  font-weight: 200;
+  background-color: var(--main-colour);
+  border: 10px solid var(--secondary-colour);
+}
 
+h1 {
+  font-size: 32px;
+  margin: 100px 100px 0;
+}
 
+p {
+  margin-left: 100px;
+}
 
+.hero a {
+  color: white;
+  font-family: var(--titles-typeface);
+  font-size: 32px;
+  text-decoration: none;
+}
 
+.navbar a {
+  font-family: var(--main-typeface);
+  color: var(--main-colour);
+  margin-right: 100px;
+}
 
+.navbar a:hover {
+  color: white;
+}
 
+.navbar a:visited {
+  color: var(--main-colour);
+}
 
+.navbar .active:visited {
+  color: white;
+}
 
+.navbar img {
+  margin-left: 80px;
+}
 
-
-
-
-
-
-
-
-/*font-family: "Chewy", cursive;
-font-family: "Josefin Sans", sans-serif;
+.three-links button {
+  background-color: var(--secondary-colour);
+  border: none;
+  border-radius: 150px;
+  height: 200px;
+  margin-bottom: 120px;
+  margin-top: 100px;
+  width: 350px;
+}
