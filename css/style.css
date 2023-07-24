@@ -30,6 +30,19 @@ p {
   text-decoration: none;
 }
 
+.navbar {
+  padding-top: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: white;
+  color: white;
+}
+
 .navbar a {
   font-family: var(--main-typeface);
   color: var(--main-colour);
@@ -57,7 +70,50 @@ p {
   border: none;
   border-radius: 150px;
   height: 200px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   margin-top: 100px;
   width: 350px;
+}
+
+.three-links p {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  text-align: center;
+  width: 340px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    margin: 80px 0 20px;
+    text-align: center;
+  }
+
+  .navbar-brand img {
+    margin-left: 10px;
+  }
+
+  .subtitle {
+    text-align: center;
+    margin: 0 10px;
+    line-height: 1.2;
+  }
+
+  .three-links {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .three-links a {
+    font-size: 25px;
+  }
+
+  .three-links button {
+    margin-top: 30px;
+    height: 150px;
+    width: 300px;
+  }
+
+  .three-links p {
+    margin: 0 auto;
+  }
 }
