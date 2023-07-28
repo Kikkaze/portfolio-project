@@ -162,7 +162,7 @@ footer a {
   }
 
   .graphic-design-grid {
-    flex-direction: column;
+    text-align: center;
   }
 
   .longer-paragraph {
@@ -173,6 +173,14 @@ footer a {
   }
   .navbar-brand img {
     margin-left: 10px;
+  }
+
+  .projects-images {
+    filter: none;
+  }
+
+  .projects-images:hover {
+    transform: none;
   }
 
   .subtitle {
