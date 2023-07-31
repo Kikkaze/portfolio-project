@@ -33,7 +33,7 @@ footer a {
   color: white;
 }
 
-footer a:hover {
+a:hover {
   color: var(--main-colour);
 }
 
@@ -80,12 +80,12 @@ footer a:hover {
   margin-right: 100px;
 }
 
-.navbar a:hover {
-  color: white;
-}
-
 .navbar a:visited {
   color: var(--main-colour);
+}
+
+.navbar a:hover {
+  color: white;
 }
 
 .navbar .active {
@@ -113,10 +113,6 @@ footer a:hover {
   filter: none;
   transform: scale(1.5);
   z-index: 1;
-}
-
-.projects-links:hover {
-  color: var(--main-colour);
 }
 
 .project-titles {
