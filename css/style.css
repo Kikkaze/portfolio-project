@@ -24,13 +24,17 @@ p {
 }
 
 footer {
-  font-size: 14px;
-  margin-left: 100px;
-  margin-bottom: 20px;
+  background-color: var(--secondary-colour);
+  padding: 25px 0 5px;
+  font-size: 30px;
 }
 
 footer a {
   color: white;
+}
+
+footer a:hover {
+  color: var(--main-colour);
 }
 
 .about-paragraph {
@@ -40,6 +44,7 @@ footer a {
 
 .contact-list {
   margin-left: 0px;
+  margin-bottom: 80px;
 }
 
 .contact-list a {
@@ -49,6 +54,11 @@ footer a {
 
 .contact-row {
   margin-top: 200px;
+}
+
+.longer-paragraph {
+  margin-right: 100px;
+  text-align: justify;
 }
 
 .navbar {
@@ -105,6 +115,10 @@ footer a {
   z-index: 1;
 }
 
+.projects-links:hover {
+  color: var(--main-colour);
+}
+
 .project-titles {
   color: white;
   font-family: var(--titles-typeface);
@@ -157,16 +171,8 @@ footer a {
     margin: 0;
   }
 
-  .active {
-    color: white;
-  }
-
   .contact-row {
     margin-top: 100px;
-  }
-
-  .projects-images-grid {
-    text-align: center;
   }
 
   .longer-paragraph {
@@ -175,6 +181,11 @@ footer a {
     padding-right: 0;
     text-align: center;
   }
+
+  .navbar .active {
+    color: white;
+  }
+
   .navbar-brand img {
     margin-left: 10px;
   }
@@ -185,6 +196,10 @@ footer a {
 
   .projects-images:hover {
     transform: none;
+  }
+
+  .projects-images-grid {
+    text-align: center;
   }
 
   .subtitle {
